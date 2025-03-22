@@ -69,8 +69,8 @@ const Userform = () => {
             }
         </div>
         <div className='mb-2 flex flex-col'>
-            <label htmlFor="ConfirmPassword">Confirm Password</label>
-            <input type="password" id="ConfirmPassword" name="ConfirmPassword"
+            <label htmlFor="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword"
              onChange={changeInputHandler} value={formData.confirmPassword} 
              className='border border-gray-500 rounded px-2 py-1'/>
               {
